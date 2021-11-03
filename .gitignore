@@ -27,7 +27,7 @@ __pycache__/
 
 #ignore virtual environment
 currency_env/
-
+delete.py
 #ignore local file
 .env
 # JetBrains IDE
