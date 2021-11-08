@@ -1,0 +1,88 @@
+{
+	"id": "dcc5658c-8801-8f2c-2858-a4b7a61ffce3",
+	"name": "currency",
+	"description": "",
+	"order": [
+		"8864ccd5-427c-3e8f-febb-e9dd77a130d1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1636371331302,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "8864ccd5-427c-3e8f-febb-e9dd77a130d1",
+			"headers": "Authorization: Token 15230f3d126fad75f807f9c73d426290c431de02\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token 15230f3d126fad75f807f9c73d426290c431de02",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/docs/?oauth_token=15230f3d126fad75f807f9c73d426290c431de02&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1636371399&oauth_nonce=thOAM0&oauth_version=1.0&oauth_signature=S/gx4aeHp34tq4gMbY8dWN3zB80=",
+			"queryParams": [
+				{
+					"key": "oauth_token",
+					"value": "15230f3d126fad75f807f9c73d426290c431de02",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "oauth_signature_method",
+					"value": "HMAC-SHA1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "oauth_timestamp",
+					"value": "1636371399",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "oauth_nonce",
+					"value": "thOAM0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "oauth_version",
+					"value": "1.0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "oauth_signature",
+					"value": "S/gx4aeHp34tq4gMbY8dWN3zB80=",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "dcc5658c-8801-8f2c-2858-a4b7a61ffce3",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/docs/?oauth_token=15230f3d126fad75f807f9c73d426290c431de02&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1636371399&oauth_nonce=thOAM0&oauth_version=1.0&oauth_signature=S/gx4aeHp34tq4gMbY8dWN3zB80=",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1636371481838,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
