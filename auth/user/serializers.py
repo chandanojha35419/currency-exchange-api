@@ -7,7 +7,6 @@ from rest_framework import serializers, status
 from django.core.exceptions import ValidationError as DjangoValidationError
 from rest_framework.response import Response
 
-from labs import service
 from labs.exceptions import ValidationError, AuthenticationError, Forbidden, Reason, success_response, ServerError
 from labs.fields import validate_email
 from labs.generics import ReadOnlyModelSerializer
