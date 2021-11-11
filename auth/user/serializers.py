@@ -128,7 +128,8 @@ class OTPRequestSerializer(serializers.Serializer):
 	
 	def send_otp(self, mobile, email, **kwargs):
 		otp_code = OTP.get_shared_otp_code(mobile, email, self.otp_context)
-		service.send_otp_mail(mobile, email, self.event_name, otp_code)
+		# update code for sending otp to mail and mobile
+		# service.send_otp_mail(mobile, email, self.event_name, otp_code)
 	
 	def create(self, validated_data):
 		self.send_otp(validated_data.get('mobile'), validated_data.get('email'))
